@@ -16,6 +16,16 @@ const Projects = () => {
       link: "https://main--my-ecommerce-site-mdishmamiqbal.netlify.app/",
       image: eCommerce,
     },
+    {
+      name: "e-commerce",
+      link: "https://main--my-ecommerce-site-mdishmamiqbal.netlify.app/",
+      image: eCommerce,
+    },
+    {
+      name: "e-commerce",
+      link: "https://main--my-ecommerce-site-mdishmamiqbal.netlify.app/",
+      image: eCommerce,
+    },
   ];
 
   return (
