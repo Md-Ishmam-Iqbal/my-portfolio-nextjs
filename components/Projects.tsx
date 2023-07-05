@@ -13,8 +13,6 @@ const Projects = () => {
       image: eCommerce,
     },
     { name: "Amazon Clone", link: "#", image: amazonClone },
-    { name: "Amazon Clone", link: "#", image: amazonClone },
-    { name: "Amazon Clone", link: "#", image: amazonClone },
   ];
 
   return (
