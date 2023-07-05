@@ -6,13 +6,16 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const ProjectsList = [
-    { name: "Amazon Clone", link: "#", image: amazonClone },
     {
       name: "e-commerce",
       link: "https://main--my-ecommerce-site-mdishmamiqbal.netlify.app/",
       image: eCommerce,
     },
-    { name: "Amazon Clone", link: "#", image: amazonClone },
+    {
+      name: "e-commerce",
+      link: "https://main--my-ecommerce-site-mdishmamiqbal.netlify.app/",
+      image: eCommerce,
+    },
   ];
 
   return (
