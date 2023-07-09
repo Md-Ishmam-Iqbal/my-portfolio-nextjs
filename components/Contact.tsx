@@ -15,14 +15,16 @@ const Contact = () => {
       <div className=" flex flex-col gap-4 items-center justify-center max-2-5xl mx-auto">
         <h2 className="text-2xl font-bold">Contact me</h2>
         <p className="text-lg tracking-wide font-medium text-center">
-          Adaptability is the ability to adjust and thrive in changing
-          circumstances, and it is essential to navigating the complexities of
-          life. Whether its adapting to new technologies, social norms, or
-          personal challenges, adaptability allows us to stay resilient and
-          flexible in the face of change.
+          Contact: +8801826207551
         </p>
+        <a
+          href="mailto:iqbal.ishmam@gmail.com"
+          className="text-lg tracking-wide font-medium text-center pb-5"
+        >
+          Email: iqbal.ishmam@gmail.com
+        </a>
         <a href="mailto:iqbal.ishmam@gmail.com">
-          <button className="w-52 h-14 bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-950 text-xl font-bold text-white rounded-lg hover:from-indigo-950 hover:to-blue-600 duration-300 group">
+          <button className="w-52 h-14 bg-gradient-to-r from-blue-700 via-sky-800 to-cyan-800 text-xl font-bold text-white rounded-lg hover:bg-gradient-to-tr duration-300 group">
             Say Hello
           </button>
         </a>

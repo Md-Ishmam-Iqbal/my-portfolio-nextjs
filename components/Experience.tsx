@@ -16,8 +16,8 @@ const Experience = () => {
       <Title text="Experience" icon={<MdWorkOutline />} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <ReserveSpot
-          title="company.com"
-          subtitle="Web developer 1800 - 1810"
+          title="reserve your spot"
+          subtitle="Software Developer To be decided"
           icon={<TbServer />}
         />
         <ReserveSpot

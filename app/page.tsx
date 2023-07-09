@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="w-full bg-gray-950 text-gray-300 px-4">
+    <main className="w-full text-black px-4 bg-slate-200">
       <div className="max-w-screen-xl mx-auto lg:pt-10">
         <Banner />
         <AboutMe />

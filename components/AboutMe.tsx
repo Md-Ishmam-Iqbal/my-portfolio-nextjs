@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { SiInformatica } from "react-icons/si";
 
 import Title from "./Title";
@@ -6,23 +7,20 @@ const AboutMe = () => {
   return (
     <div className="wrapper">
       <Title text="About Me" icon={<SiInformatica />} />
-      <div className="text-lg tracking-wide flex flex-col gap-6">
+      <div className="text-lg tracking-tight flex flex-col gap-6">
         <p>
-          Honesty is the practice of speaking and acting truthfully and with
-          integrity, and it is essential to building trust and respect in our
-          relationships. Whether its being honest with ourselves and others
-          about our thoughts and feelings, admitting our mistakes and
-          shortcomings, or communicating clearly and transparently, honesty can
-          create a sense of authenticity and connection in our interactions with
-          others.
+          I have been passionate about front-end development for a while now,
+          and I believe this experience has provided me with the necessary
+          skills to excel in this role. I consider myself adept in HTML, CSS,
+          and JavaScript. I primarily worked with ReactJs and its environment
+          (hooks, react query, react-router, context). I have also worked with
+          data fetching from APIs, git and github. I have some familiarity with
+          Redux-Toolkit, Typescript and NextJs, and have recently started
+          working with these technologies.
         </p>
         <p>
-          Humility is the practice of recognizing our limitations and
-          imperfections, and it is essential to personal growth and development.
-          Whether its acknowledging our mistakes and shortcomings, seeking
-          feedback from others, or approaching new situations with a sense of
-          openness and curiosity, humility can help us learn and grow in
-          meaningful ways.
+          When not glued to a screen, I pass my time learning arabic, reading
+          islamic books, memorizing the Qur'an and spending time with my family.
         </p>
       </div>
     </div>

@@ -22,9 +22,11 @@ const Skills = () => {
     },
     { name: "Nextjs", link: "https://nextjs.org/docs" },
     { name: "Typescript", link: "https://www.typescriptlang.org/docs/" },
+    { name: "Redux Toolkit", link: "https://redux-toolkit.js.org/" },
     { name: "Tailwind CSS", link: "https://v2.tailwindcss.com/docs" },
-    { name: "git", link: "https://git-scm.com/doc" },
-    { name: "github", link: "https://github.com/Md-Ishmam-Iqbal" },
+    { name: "Material UI", link: "https://mui.com/" },
+    { name: "Git", link: "https://git-scm.com/doc" },
+    { name: "Github", link: "https://github.com/Md-Ishmam-Iqbal" },
     { name: "Vercel", link: "https://vercel.com/" },
     { name: "Netlify", link: "https://www.netlify.com/" },
   ];

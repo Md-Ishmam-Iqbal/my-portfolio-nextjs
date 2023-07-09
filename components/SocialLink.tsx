@@ -10,7 +10,7 @@ const SocialLink = ({ title, link }: Props) => {
     <a
       href={link}
       target="_blank"
-      className="flex items-center justify-center gap-2 text-xl text-gray-400 font-semibold group"
+      className="flex items-center justify-center gap-2 text-xl text-stone-700 font-semibold group"
     >
       <p>{title}</p>
       <FiArrowUpRight className="translate-x-0 translate-y-0 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500" />
