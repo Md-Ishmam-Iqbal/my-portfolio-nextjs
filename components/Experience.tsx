@@ -6,6 +6,7 @@ import {
 } from "react-icons/md";
 import { TbServer } from "react-icons/tb";
 import { GiArchiveResearch } from "react-icons/gi";
+import { MdKeyboardCommandKey } from "react-icons/md";
 
 import ReserveSpot from "./ReserveSpot";
 import ExperienceCard from "./ExperienceCard";
@@ -15,20 +16,10 @@ const Experience = () => {
     <div className="wrapper">
       <Title text="Experience" icon={<MdWorkOutline />} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <ReserveSpot
-          title="reserve your spot"
-          subtitle="Software Developer To be decided"
-          icon={<TbServer />}
-        />
-        <ReserveSpot
-          title="reserve your spot"
-          subtitle="FrontEnd Developer To be decided"
-          icon={<MdJavascript />}
-        />
-        <ReserveSpot
-          title="reserve your spot"
-          subtitle="Web developer To be decided"
-          icon={<MdOutlineDeveloperMode />}
+        <ExperienceCard
+          title="Sazim"
+          subtitle="Full Stack Developer Trainee 2023 - Present"
+          icon={<MdKeyboardCommandKey />}
         />
         <ExperienceCard
           title="cBLAST"
