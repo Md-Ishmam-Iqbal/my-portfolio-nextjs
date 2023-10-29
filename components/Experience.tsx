@@ -18,12 +18,14 @@ const Experience = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <ExperienceCard
           title="Sazim"
-          subtitle="Full Stack Developer Trainee 2023 - Present"
+	  role="Full Stack Developer Trainee"
+	  duration="2023 - Present"
           icon={<MdKeyboardCommandKey />}
         />
         <ExperienceCard
           title="cBLAST"
-          subtitle="Research Intern 2021 - 2022"
+	  role="Research Intern"
+	  duration="2021 - 2022"
           icon={<GiArchiveResearch />}
         />
       </div>
