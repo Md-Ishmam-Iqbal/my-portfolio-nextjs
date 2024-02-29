@@ -21,10 +21,10 @@ const Skills = () => {
       link: "https://www.ruby-lang.org/en/",
     },
     {
-      name: "Reactjs",
+      name: "React JS",
       link: "https://react.dev/",
     },
-    { name: "Nextjs", link: "https://nextjs.org/docs" },
+    { name: "Next JS", link: "https://nextjs.org/docs" },
     { name: "Typescript", link: "https://www.typescriptlang.org/docs/" },
     { name: "Redux Toolkit", link: "https://redux-toolkit.js.org/" },
     { name: "React Query", link: "https://tanstack.com/query/v3/" },
@@ -37,9 +37,9 @@ const Skills = () => {
     { name: "Material UI", link: "https://mui.com/" },
     { name: "Git", link: "https://git-scm.com/" },
     { name: "Github", link: "https://github.com/" },
-    { name: "Nodejs", link: "https://nodejs.org/en" },
+    { name: "Node JS", link: "https://nodejs.org/en" },
     {
-      name: "Expressjs",
+      name: "Express JS",
       link: "https://expressjs.com/",
     },
     {
@@ -57,7 +57,7 @@ const Skills = () => {
     {
       name: "Mongodb",
       link: "https://www.mongodb.com/",
-    }
+    },
   ];
 
   return (

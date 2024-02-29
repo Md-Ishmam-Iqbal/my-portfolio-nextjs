@@ -3,7 +3,7 @@ import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
-import Projects from "../components/Projects";
+import PublishedProjects from "../components/PublishedProjects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -13,10 +13,10 @@ export default function Home() {
       <div className="max-w-screen-xl mx-auto lg:pt-10">
         <Banner />
         <AboutMe />
-	<Education />
+        <Education />
         <Experience />
         <Skills />
-        <Projects />
+        <PublishedProjects />
         <Contact />
         <Footer />
       </div>

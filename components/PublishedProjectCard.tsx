@@ -7,7 +7,7 @@ interface Props {
   description: string;
 }
 
-const ProjectCard = ({ link, image, name, description }: Props) => {
+const PublishedProjectCard = ({ link, image, name, description }: Props) => {
   return (
     <div>
       <a href={link} target="_blank">
@@ -29,4 +29,4 @@ const ProjectCard = ({ link, image, name, description }: Props) => {
 //     box-shadow: 0px 3px 8px 3px rgba(80, 80, 80, 0.3);
 // }
 
-export default ProjectCard;
+export default PublishedProjectCard;
